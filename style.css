@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+body {font-family: "Poppins", sans-serif;}
+*{margin: 0; padding: 0;}
+body{background-color: #f7f1f0;color: #262220;}
+nav{display: flex; justify-content: space-around; align-items: center; height: 80px;background-color: #a15c38;}
+nav ul{display: flex; justify-content: center;}
+nav ul li{ list-style: none; margin: 0 23px;}
+nav ul li a{ text-decoration: none;color: #262220;}
+nav ul li a:hover{color: #f7f1f0;font-size: 1.02rem;}
+main hr{border: 0;height: 1.2px;margin: 60px 84px; background: #a15c38;}
+.left{font-size: 2rem;}
+.firstSection{display: flex;justify-content: space-around;margin: 80px 0;align-items: center;}
+.firstSection > div{width: 30%;}
+.leftSection{font-size: 2.7rem;}
+.rightSection img{width: 80%; }
+.icon {cursor: pointer;height: 2rem;}
+.purple{color: #a15c38;}
+.text-gray{color:#c3a6a0;}
+#element{color: #a15c38;}
+.leftSection .btn{font-weight: 600; transition: all 300ms ease; padding: 1rem; width: 8rem; border-radius: 2rem;}
+.secondSection , .thirdSection , .fourthSection , .fifthSection{max-width: 80vw;margin:auto;}
+.secondSection h1 , .thirdSection h1 , .fourthSection h1 , .fifthSection h1{font-size: 40px;}
+.para{font-size: 20px;}
+.thirdSection div{padding: 30px 0;}
+.secondSection .container , .thirdSection .container {padding: 2rem 3rem; flex: 1; background: #c3a6a0; border-radius: 2rem; border: rgb(53, 53, 53) 0.1rem solid; border-color: #262220; text-align:justify; margin-top: 30px;}
+footer p{height: 26vh;margin: 0 1rem; text-align: center;}
+#contact {display: flex;justify-content: center;flex-direction: column;height: 70vh;}
+.contact-info-upper-container {display: flex;justify-content: center;border-radius: 2rem;border: rgb(53, 53, 53) 0.1rem solid;border-color: rgb(163, 163, 163);background: (250, 250, 250);margin: 2rem auto;padding: 0.5rem;}
+.contact-info-container {display: flex;align-items: center;justify-content: center;gap: 0.5rem;margin: 1rem;}
+.contact-info-container p {font-size: larger;}
+.contact-icon {cursor: default;height: 2.5rem;}
+.email-icon {height: 2.5rem;cursor: default;}
+#projects {position: relative;}
+.color-container {border-color: black; background:black;}
+.project-img {border-radius: 2rem;width: 90%;height: 90%;}
+.project-title {margin: 1rem;color: black;}
+.project-btn {color: black;border-color:black;}
+.details-container {text-align: center;padding: 1.5rem;flex: 1 1 0%;background: #c3a6a0;border-radius: 2rem;border-width: 0.1rem;border-style: solid;border-image: initial;border-color: black;}
+.btn {font-weight: 600;transition: all 300ms ease;padding: 1rem;width: 8rem;border-radius: 2rem;}
+.about-containers, .about-details-container {display: flex;}
+.about-containers {gap: 2rem; margin-bottom: 2rem;margin-top: 2rem;}
